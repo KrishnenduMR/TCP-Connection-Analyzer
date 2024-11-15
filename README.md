@@ -43,6 +43,8 @@ Install required Python libraries using:
 ```bash
 pip install scapy pyshark
 ```
+---
+
 ## How to use
 1. **Clone the repository**
 ```bash
@@ -83,7 +85,7 @@ python main.py
 ---
 
 ## project structure
-
+```
 Documents/
 └── src/
     ├── __pycache__/
@@ -93,7 +95,7 @@ Documents/
     ├── server.py
     └── usingscapy.py
 README.md
-
+```
 ---
 
 ## Key Functionalities
@@ -112,6 +114,8 @@ README.md
 ## App Front Page
 
 ![alt text](Documents/FrontPage.png)
+
+---
 
 ## Security Notes
 - Avoid sharing captured **PCAP files** into public as they may contain sensitive data.
