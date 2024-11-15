@@ -1,4 +1,4 @@
-# TCP Packet Analyzer with Client-Server and PCAP File Integration
+# TCP Connection Analyzer
 
 ## Overview
 This project is a **TCP Packet Analyzer** designed to:
@@ -62,24 +62,25 @@ tcp.port == <port>
 ```bash
 python main.py
 ```
-- Start server
-- Start client
-- Communicate between client and server
-- Close connection
+-  Start server
+-  Start client
+-  Communicate between client and server
+-  Close connection
 - Exit the tab
 
 4. **Stop capturing in wireshark**
-- file -> save as -> filename.pcap
+  file -> save as -> filename.pcap
 
 5. **open pcap analyzer**
-- Select the pcap file
-- View details
+  Select the pcap file and view details
 
 6. **Connection analyze using scapy**(optional)
 - Select scapy analyzer
 - Start capturing
 - View details
 - Stop capturing
+
+---
 
 ## project structure
 
@@ -93,6 +94,7 @@ Documents/
     └── usingscapy.py
 README.md
 
+---
 
 ## Key Functionalities
 
